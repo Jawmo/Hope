@@ -16,7 +16,8 @@ To run:
 1. Create a DB 
 2. Setup hope/settings to connect to it (currently setup for postgres)
 3. Run Django migrations
-3. In console: python manage.py server2.py
+4. In console: python manage.py server2.py
+5. Connect to 127.0.0.1 (or your server domain) to login and enter the game
 
 MIT License
 
