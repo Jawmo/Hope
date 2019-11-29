@@ -1,0 +1,473 @@
+body, html {
+  padding: 0px 0px 50px 0px;
+  font-family: 'Muli', sans-serif;
+  color: #eaeaea;
+  /*background: #1c1b2d;*/
+  line-height: 1.5em;
+  letter-spacing: .5px;
+
+  font-size: .9em;
+  background: #000000; /* Old browsers */
+  background: -moz-linear-gradient(top, #000000 34%, #000000 34%, #110e23 80%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #000000 34%,#000000 34%,#110e23 80%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #000000 34%,#000000 34%,#110e23 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#110e23',GradientType=0 ); /* IE6-9 */
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  margin: 0px;
+  padding: 5px 0px 5px 0px;
+}
+hr {
+  border-top: 1px solid #5e5ec1;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+/* unvisited link */
+a:link {
+  color: #7266ff;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #7266ff;
+}
+
+/* mouse over link */
+a:hover {
+  color: #a8a8ed;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #7266ff;
+}
+
+/* news */
+.news_title{
+  color: #ffe100;
+}
+
+.nav-item {
+  padding: 0px 10px 0px 10px !important;
+}
+
+/*splash*/
+
+.splash_bg {
+  background-image:url("/static/images/planet.jpg");
+  /*background-image:url("/static/images/splash_bg.jpg") 100% 0 no-repeat fixed;*/
+  background-repeat: no-repeat;
+  background-size: fixed;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+  color: white;
+
+  margin-bottom: 0px;
+  border-top: 2px solid #ff9000;
+  border-bottom: 2px solid #ff9000;
+}
+.splash_bg2 {
+  background-image:url("/static/images/planet.jpg");
+  /*background-image:url("/static/images/splash_bg.jpg") 100% 0 no-repeat fixed;*/
+  background-repeat: no-repeat;
+  background-size: fixed;
+  background-position: center;
+  height: 50px;
+  width: 100%;
+  color: white;
+
+  margin-bottom: 0px;
+  border-top: 2px solid #ff9000;
+  border-bottom: 2px solid #ff9000;
+}
+
+.splash_right {
+  padding: 100px 0px 0px 0px;
+}
+
+.form-text {
+  font-size: 1.2em;
+}
+
+.centered_imgtext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.splash_title_text {
+  padding: 220px 0px 220px 0px;
+  font-size: 3em;
+  font-weight: bold;
+  text-shadow: 4px 4px black;
+}
+.under {
+  position: relative;
+  text-align: center;
+}
+
+.landing_box {
+  padding: 40px 0px 40px 0px;
+}
+
+
+.center_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* CHAR*/
+
+.char_name {
+  color: #5e5ec1;
+}
+
+.hope_container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.splash_div {
+    margin: 0 auto;
+    width: auto;
+    height: 279px
+    style: background-image: {% static 'images/splash.png' %}
+}
+
+.flex_chat {
+  /*flex: 0 0 100%;*/
+  display: flex;
+  flex-direction: column;
+  /*overflow: auto;*/
+}
+.chat_input {
+  flex-shrink: none;
+}
+
+
+.chat_log {
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 0px 10px 0px 0px;
+    /*border: 1px #312e5b solid;*/
+    /*min-height: 65vh;*/
+    /*max-height: 65vh;*/
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: calc(100vh - 220px);
+    width: 100%;
+    /*display: flex;
+    flex-flow: column;*/
+}
+
+.input_div {
+  margin: 0 auto;
+  padding: 0px;
+  max-width: 1000px;
+}
+
+input[type="text"], textarea {
+  background-color : #27263f;
+  color: #efefef;
+}
+input[type="password"], textarea {
+  background-color : #27263f;
+  color: #efefef;
+}
+input[type="email"], textarea {
+  background-color : #27263f;
+  color: #efefef;
+}
+input[type="text"]:focus, textarea {
+  background-color : #27263f;
+  color: #efefef;
+}
+
+/*textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: rgba(126, 239, 104, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
+}*/
+/*
+.form-control:focus {
+  border-color: #FF0000;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}*/
+
+.hp_row {
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* INFO */
+
+.info-div {
+  text-align: left;
+  width: 100%;
+}
+
+/* BARS */
+.health-div {
+  text-align: left;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.health-bar {
+  -webkit-appearance: none;
+   appearance: none;
+  height: 5px;
+  padding: 0px;
+  width: 100%;
+}
+progress[value]::-webkit-progress-bar {
+  margin-top: 6px;
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+progress[value]::-webkit-progress-value {
+  background-color: #e06957;
+  border-radius: 2px; 
+  background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+progress[value]::-webkit-progress-value::before {
+  content: '100%';
+  position: absolute;
+  right: 0;
+  top: -125%;
+}
+
+.roundtime-div {
+  text-align: left;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.roundtime-bar {
+  -webkit-appearance: none;
+   appearance: none;
+  height: 5px;
+  padding: 0px;
+  width: 100%;
+}
+
+
+
+/**/
+
+.inventory {
+  color: #8b8bed;
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+/*Top Bar*/
+
+.top_bar {
+  padding: 10px 0px 10px 0px;
+  /*border-bottom: 1px solid #5e5ec1;*/
+}
+
+.navbar-hope {
+  color: white;
+  font-size: 1.2em;
+  padding: 20px 20px 20px 20px; 
+  margin: 0px; 
+}
+
+/*Attributes*/
+.attr_title {
+  color: #5e5ec1;
+}
+.attr_num {
+  color: #a8a8ed;
+}
+.vital_name {
+  color: #5e5ec1;
+}
+.char_name {
+  color: #a8a8ed;
+}
+
+.category_title {
+  color: #5e5ec1;
+  font-size: 1em;
+}
+.category_title_box {
+}
+.category_content_box {
+  color: #5e5ec1;
+}
+
+.center-left-hand {
+  color: #a8a8ed;
+}
+.center-right-hand {
+  color: #a8a8ed;
+}
+
+.left_col {
+  padding-top: 10px;
+}
+
+/*right_col tabs*/
+
+.right_col {
+  padding-top: 10px;
+}
+
+.online_status {
+  color: #88ff21;
+}
+.offline_status {
+  color: red;
+}
+
+#rc_central {
+  overflow-y: scroll;
+  max-height: 400px;
+}
+
+#rc_comms_sub_box {
+  height: 200px;
+  max-height: 200px;
+}
+#rc_comms_sub {
+  padding-top: 10px;
+  height: 200px;
+}
+
+
+/* central tree */
+/* Remove default bullets */
+ul, #central_tree {
+  list-style-type: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+li, #central_tree {
+  list-style-type: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 5px 0px 5px;
+}
+
+/* Remove margins and padding from the parent ul */
+#central_tree {
+  margin: 0;
+  padding: 0;
+}
+
+/* Hide the nested list */
+.nested {
+  display: none;
+}
+
+/* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+.active {
+  display: block;
+}
+
+
+/*tabs*/
+
+.tab {
+  overflow: hidden;
+  background-color: none;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  color: #5e5ec1;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0px 10px 10px 10px;
+  transition: 0.3s;
+  width: 33%;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  border-bottom: 2px solid #eaeaea;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  border-bottom: 2px solid #5e5ec1;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding-top: 10px;
+  border-top: none;
+  color: #8b8bed;
+}
+
+.tabcontent {
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+
+/*scrollbar*/
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(65,65,108,1); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(103,103,151,1); 
+}

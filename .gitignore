@@ -1,0 +1,8 @@
+
+*.pyc
+*.pyc
+journald.conf
+system.journal
+system@70f666fcc34148c5868b5852b1abf740-00000000000d7bca-000587d4fb375b00.journal
+user-1000@bea2b604b0f8403988d934770d1e7c73-00000000000d7961-000587d4e5bb34bf.journal
+engine/loops/main_loop_live.py
