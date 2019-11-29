@@ -15,6 +15,7 @@ Utilizes:
 To run: 
 1. Create a DB 
 2. Setup hope/settings to connect to it (currently setup for postgres)
+3. Run Django migrations
 3. In console: python manage.py server2.py
 
 MIT License
