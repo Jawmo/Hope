@@ -8,7 +8,7 @@ Sorry for the lack of comments.
 
 Utilizes:
 1. Python 3.6
-2. Postgres
+2. PostgreSQL
 3. Django for ORM with web app and web login
 4. Websockets (https://github.com/Pithikos/python-websocket-server)
 
