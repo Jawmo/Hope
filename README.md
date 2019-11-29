@@ -12,7 +12,10 @@ Utilizes:
 3. Django for ORM with web app and web login
 4. Websockets (https://github.com/Pithikos/python-websocket-server)
 
-To run: python manage.py server2.py
+To run: 
+1. Create a DB 
+2. Setup hope/settings to connect to it (currently setup for postgres)
+3. In console: python manage.py server2.py
 
 MIT License
 
