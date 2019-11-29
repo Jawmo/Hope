@@ -4,13 +4,15 @@ Python-based MUD that was my excuse for learning to code. This is about a year's
 
 The main goal was really to get a simple game running and to learn how Python works. I wanted to keep things extremely simple and easy to build upon and I'm really quite proud of the work for a beginner. If you improve upon it, I am more than happy to incorporate changes!
 
+Sorry for the lack of comments.
+
 Utilizes:
 1. Python 3.6
 2. Postgres
 3. Django for ORM with web app and web login
 4. Websockets (https://github.com/Pithikos/python-websocket-server)
 
-
+To run: python manage.py server2.py
 
 MIT License
 
