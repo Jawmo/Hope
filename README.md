@@ -7,7 +7,7 @@ The main goal was really to get a simple game running and to learn how Python wo
 Utilizes:
 1. Python 3.6
 2. Postgres
-3. Django for ORM
+3. Django for ORM with web app and web login
 4. Websockets (https://github.com/Pithikos/python-websocket-server)
 
 
