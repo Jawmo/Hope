@@ -1,6 +1,6 @@
 # HopeWeb_Dev
 
-Python-based MUD that was my excuse for learning to code. This is about a year's worth of learning to code. Feel free to use it and improve upon it!
+Python-based MUD that was my excuse for learning to code. Feel free to use it and improve upon it!
 
 The main goal was really to get a simple game running and to learn how Python works. I wanted to keep things extremely simple and easy to build upon and I'm really quite proud of the work for a beginner. If you improve upon it, I am more than happy to incorporate changes!
 
