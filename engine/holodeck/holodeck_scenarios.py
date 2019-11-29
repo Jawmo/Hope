@@ -1,4 +1,0 @@
-
-### HOLODECK SCENARIOS
-
-scenarios = {}

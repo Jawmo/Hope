@@ -1,8 +1,0 @@
- 
-room_templates = {
-
-	"oxine": {
-
-	}
-
-}
