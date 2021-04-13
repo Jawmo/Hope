@@ -1,4 +1,4 @@
-# HopeWeb_Dev
+# Hope - Voyage Embarked (MUD)
 
 Python-based MUD that was my excuse for learning to code. Feel free to use it and improve upon it!
 
